@@ -13,7 +13,7 @@ namespace ConsumerAssign
             {
                 BootstrapServers = "localhost:9092",
                 GroupId = "test",
-                EnableAutoCommit = false, // optional: control commits manually
+                //EnableAutoCommit = false, // optional: control commits manually
                 AutoOffsetReset = AutoOffsetReset.Earliest,
             };
 
